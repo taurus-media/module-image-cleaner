@@ -1,0 +1,20 @@
+{
+    "name": "taurus-media/module-image-cleaner",
+    "description": "Cleanup unused product images",
+    "require": {
+        "magento/module-catalog": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Taurus\\ImageCleaner\\": ""
+        }
+    }
+}
